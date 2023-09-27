@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Roboto-black";
+  src: url(../font/Roboto-Black.ttf);
+  background-color: #fafafa;
+}
+
+.navigation {
+  text-align: right;
+}
+
+.navigation ul li {
+  padding: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.text-1 div a {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.block-1 {
+  background-image: url(./../pic/illustration1.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.text-1 {
+  width: 800px;
+  padding: px;
+
+  padding-left: 144px;
+}
+
+.text-1 h1 {
+  font-size: 4rem;
+}
+
+.text-1 p {
+  line-height: 20px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.block-1 img {
+  width: 30%;
+}
+
+.pic1 {
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+.down li {
+  text-decoration: none;
+  display: ;
+}
+
+.block-2 {
+  background-image: url(./../pic/illustration2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+.block-3 {
+  background-image: url(./../pic/illustration3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+.block-4 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  background-color: aliceblue;
+  text-align: center;
+}
